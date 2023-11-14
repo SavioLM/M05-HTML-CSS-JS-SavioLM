@@ -1,0 +1,35 @@
+1.
+Pergunta: O que sao objetos em JavaScript?
+Resposta: São variáveis que podem conter atributos e metodos.
+
+2.
+Pergunta: O que são atributos em JavaScript?
+Resposta: São espaços dentro dos objetos. Uma variável que não executa nada apenas armazena.
+
+3.
+Pergunta: O que são métodos de classe em JavaScript?
+Resposta: Uma variável que contem uma função.
+
+4.
+Pergunta: O que é uma classe em JavaScript?
+Resposta: Uma moldura para criação de um objeto.
+
+5.
+Pergunta: O que é o construtor de uma classe em JavaScript?
+Resposta: Uma função que é responsável pela contrução de objetos.
+
+6.
+Pergunta: Explique o conceito de herança de classes em JavaScript. De um exemplo de uma herança em JavaScript.
+Resposta: Quando já temos uma classe e reaproveitamos o conteudo dessa mesma classe em outra.
+Exemplo: 
+
+class Animal {
+    constructor(nome) {
+    this.nome = nome;
+}
+
+class Cachorro extends Animal {
+  constructor(nome, raca) {
+    super(nome);
+    this.raca = raca;
+}
